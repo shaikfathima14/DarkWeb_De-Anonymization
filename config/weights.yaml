@@ -1,0 +1,11 @@
+version: "1.0"
+weights:
+  pgp: 0.30
+  wallet: 0.25
+  stylometry: 0.20
+  activity: 0.15
+  infrastructure: 0.10
+thresholds:
+  supported_correlation_min: 60.0
+  high_confidence_min: 80.0
+  insufficient_coverage_max: 0.30
